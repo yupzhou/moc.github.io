@@ -102,7 +102,7 @@ font-family: "times new roman", H-云林黑体, 微软雅黑;
   -o-transform:rotate(180deg);
 }
 
-.a,.b,.c,.d,.e,.f,.g,.h,.i,.help{
+.a,.b,.c,.d,.e,.f,.g,.h,.help{
   height: 88vh;
   overflow-y: scroll;
 }
@@ -143,7 +143,7 @@ background-color: #fff;
     background-color: rgba(240,240,240,0.8);
 }
 
-@media screen and (max-width: 1024px){
+@media screen and (max-width: 770px){
 	.box2{
 		width: 100vw;
 		left:0px;
@@ -184,10 +184,11 @@ visibility:hidden;
 	.phone{
 		background-color: #9309AF;
 		color: #fff;
+		height: 65px;
 	}
 	.phone>span{
 		display: inline-block;
-		height:30px;
+		height:65px;
 	}
 	span.active{
 		background-color: #00B3EF;
@@ -201,7 +202,7 @@ visibility:hidden;
 	.navbar-inverse{
 		background-color: #9309AF;
 		color: #9309AF;
-		height: 53px;
+		height: 95px;
 	}
 	.navbar-inverse .navbar-form {
 	    border-color: #9309AF;
@@ -313,7 +314,7 @@ visibility:hidden;
 }
 	
 
-@media screen and (min-width: 1024px){
+@media screen and (min-width: 770px){
 	.listsearchbox{
 	  width:12vw;
 	  height: 50vh;
