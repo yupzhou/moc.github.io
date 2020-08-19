@@ -411,3 +411,15 @@ b>div>a{
 	color:#7E2990;
 }
 
+button#button-sq,.btn-default{
+	background:#9309AF;
+	color:#FFF;
+	font-weight: 500;
+}
+
+
+button>a,button>a:hover{
+	background:none;
+	color:#FFF;
+	font-weight: 500;
+}
