@@ -411,15 +411,33 @@ b>div>a{
 	color:#7E2990;
 }
 
+div>b>a>center{
+	color:#00B3EF;
+}
+div>b>a>center:hover{
+	color:#7E2990;
+}
+
 button#button-sq,.btn-default{
 	background:#9309AF;
 	color:#FFF;
 	font-weight: 500;
 }
 
+.btn-default:hover{
+	background:#00B3EF;
+	color:#FFF;
+	font-weight: 500;
+}
 
 button>a,button>a:hover{
 	background:none;
 	color:#FFF;
 	font-weight: 500;
 }
+
+div>img{
+	border-radius: 2em;
+	background-color: transparent;
+	box-shadow: 0 0 7px 2px;
+	}
