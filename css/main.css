@@ -436,7 +436,7 @@ button>a,button>a:hover{
 	font-weight: 500;
 }
 
-div>img{
+img.pic{
 	border-radius: 2em;
 	background-color: transparent;
 	box-shadow: 0 0 7px 2px;
