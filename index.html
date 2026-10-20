@@ -12,9 +12,20 @@
 	<link rel="icon" type="image/png" href="src/1.png"/>
     <title>无双大蛇 ChronicleS - 无双大蛇剧情网</title>
     <script src="js/statis.js"></script>
+    <style>
+      /* 初始加载遮罩，防止旧版闪烁 */
+      #moc-preload-veil {
+        position: fixed; inset: 0; background: #050508; z-index: 2147483647;
+        display: flex; align-items: center; justify-content: center;
+        color: #e8c878; font-family: "Noto Serif SC", "STZhongsong", "PingFang SC", sans-serif; 
+        font-size: 14px; letter-spacing: 0.5em; font-weight: 300;
+        transition: opacity 0.4s ease;
+      }
+    </style>
 </head>
 
 <body>
+	<div id="moc-preload-veil">L O A D I N G</div>
   <div class="box2">
     <nav class="navbar navbar-inverse" role="navigation">
       <div class="navbar-header">
@@ -3169,8 +3180,6 @@
 使用素材：真三国无双6 4势力序曲
 <center>♪ 真三国无双7序曲<br><audio controls="controls"><source src="src/7pro.mp3"></source></audio></center>
 使用素材：真三国无双7 4势力序曲
-<center>♪ 超!帝国華撃団<br><audio controls="controls"><source src="src/kageki.mp3"></source></audio></center>
-使用素材：檄帝国華撃団（Bang Dream）、帝国華撃団新章
 				  </div></div>
 	
 <div class="rootbox">
@@ -3200,6 +3209,7 @@
 [2024-05-19] v1.6 | 误字修正、整合内容<br>
 [2024-06-09] v1.6 | 误字修正<br>
 [2025-07-10] v1.6 | 误字修正<br>
+[2026-10-20] v1.6-enhanced | 更新界面<br>
 				  </div></div>	
 			  
 					  
@@ -3213,7 +3223,6 @@
 		喜欢编者的读者，欢迎关注：<br>
 		编者其他网站：
 		<a href="https://yupzhou.github.io/JPRoots/">JPRoots - 日琉语之道</a><br>
-		编者微信公众号：<a href="src/sou.png"><img src="src/sou.png" height="90px" />&ensp;Nanasi的日语教室（微信号：nanasi_jp）</a><br>
 		百度贴吧介绍贴：<br>
 		<a href="https://tieba.baidu.com/p/6465718617">无双大蛇吧 - 【大蛇剧情】做了一个无双大蛇系列剧情串联网页 ♪</a><br>
 	<a href="https://tieba.baidu.com/p/6471460476">真三国无双吧 - 【大蛇剧情】做了一个无双大蛇系列剧情串联网页 ♪</a><br>
@@ -3243,7 +3252,7 @@
 
 		   
 		   <br><br><br><br>
-		   <p class="text-center"><br><br><b class="ttb">© 2016-2024 "Na²si (Nanasi)" Yupzhou "MOC - Musou Orochi Chronicles"</b><br><br><img class="bottom" src='src/logoNNS.png' /><br> </p>
+		   <p class="text-center"><br><br><b class="ttb">© 2016 至今 "Na²si (Nanasi)" Yupzhou "MOC - Musou Orochi Chronicles"</b><br><br><img class="bottom" src='src/logoNNS.png' /><br> </p>
 		   <br><br><br><br>
 		   </div>
 
@@ -3262,7 +3271,7 @@
   <script src="js/flat-ui.min.js"></script>
   <script src="js/js.cookie.js"></script>
   <script src="js/main.js"></script>
-
+<script src="moc-enhance.js"></script>
 
 
 </body>

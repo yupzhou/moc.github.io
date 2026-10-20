@@ -102,10 +102,10 @@ font-family: "times new roman", H-云林黑体, 微软雅黑;
   -o-transform:rotate(180deg);
 }
 
-.a,.b,.c,.d,.e,.f,.g,.h,.help{
+/* .a,.b,.c,.d,.e,.f,.g,.h,.help{
   height: 88vh;
   overflow-y: scroll;
-}
+} */
 
 /* 导航栏文字 */
 .navbar-nav>li>a{
