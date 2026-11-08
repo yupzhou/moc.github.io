@@ -94,7 +94,7 @@
         c: ['Volume III', 'The Demon King Returns'], d: ['Volume IV', 'Yamata no Orochi Strikes'],
         e: ['Volume V', 'Slaying Yamata no Orochi'], f: ['Volume VI', 'World of Heaven Mirror'],
         g: ['Volume VII', 'Return of the Other World'], h: ['Volume VIII', 'Ragnarok'],
-        help: ['Guide', 'Notes and references']
+        help: ['Guide', 'Notes and References']
       }
     }
   };
