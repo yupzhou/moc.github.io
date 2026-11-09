@@ -340,7 +340,7 @@
     font-family: "Noto Serif SC", "STZhongsong", "华文中宋", serif !important;
   }
   .moc-sb-sub2 {
-    color: #b0b0bd; font-size: 16px; flex: 1; letter-spacing: 0.04em; font-weight: 500;
+    color: #b0b0bd; font-size: 16.5px; flex: 1; letter-spacing: 0.04em; font-weight: 500;
   }
   /* 侧栏树形文字（除分部号）一律无衬线。母版 css/main.css 用 *{font-family:"times new roman", H-云林黑体, 微软雅黑}：
      中日文因为 Times 缺字才逐字退回黑体（看着是黑体），纯拉丁的英文标题会真的落在 Times New Roman 上，
@@ -386,7 +386,7 @@
     flex: 1;
     display: block; width: 100%; text-align: left;
     background: transparent; border: none; color: #c8c8d4;
-    padding: 9px 14px; font-size: 14px; font-weight: 500;
+    padding: 9px 14px; font-size: 16px; font-weight: 500;
     cursor: pointer; border-radius: 3px; transition: all 0.15s; line-height: 1.4;
   }
   .moc-sb-chapter:hover { color: #e8c878; }
@@ -414,7 +414,7 @@
   .moc-sb-subchapter {
     display: block; width: 100%; text-align: left;
     background: transparent; border: none; color: #a8a8b8;
-    padding: 6px 12px 6px 20px; font-size: 13.5px; font-weight: 500;
+    padding: 6px 12px 6px 20px; font-size: 15px; font-weight: 500;
     cursor: pointer; border-radius: 3px; transition: all 0.15s; line-height: 1.45;
     font-family: "PingFang SC", "Hiragino Sans GB", "Noto Sans SC", "Microsoft YaHei", sans-serif !important;
   }
@@ -503,7 +503,7 @@
   .moc-content .roottitle {
     color: #e8d0a0; font-family: "Noto Serif SC", "STZhongsong", "华文中宋", serif;
     font-size: 18px; font-weight: 700; letter-spacing: 0.06em;
-    margin-bottom: 14px; padding-bottom: 10px; border-bottom: 1px dashed #2a2a35; cursor: default;
+    padding-bottom: 10px; cursor: default;
   }
   .moc-content .arrow { display: none !important; }
   .moc-content .rootcontent {
@@ -512,7 +512,7 @@
     font-family: "PingFang SC", "Hiragino Sans GB", "Noto Sans SC", "Microsoft YaHei", sans-serif !important;
   }
   .moc-content .tit {
-    color: #d8b560; font-size: 15px; font-weight: 600; letter-spacing: 0.05em;
+    color: #d8b560; font-size: 16.5px; font-weight: 600; letter-spacing: 0.05em;
     display: block; margin-top: 14px; margin-bottom: 6px;
     font-family: "PingFang SC", "Hiragino Sans GB", "Noto Sans SC", "Microsoft YaHei", sans-serif !important;
   }
